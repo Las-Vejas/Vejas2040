@@ -5113,6 +5113,12 @@
 		(uuid "efc72168-bd0d-4b95-95f3-e993dd302459")
 	)
 	(junction
+		(at 116.84 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe35e0fc-b49f-42ea-884c-ad0751d3ffb5")
+	)
+	(junction
 		(at 200.66 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5420,16 +5426,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 97.79) (xy 252.73 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237d54e7-2945-44ff-b919-264f939d809a")
-	)
-	(wire
-		(pts
 			(xy 170.18 111.76) (xy 168.91 111.76)
 		)
 		(stroke
@@ -5657,6 +5653,16 @@
 			(type default)
 		)
 		(uuid "4146fc44-7cfc-4ce1-9652-16315df6d36a")
+	)
+	(wire
+		(pts
+			(xy 250.19 97.79) (xy 252.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426eab14-7d1a-4c01-8e4c-3889d76d8a60")
 	)
 	(wire
 		(pts
@@ -6450,6 +6456,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 48.26) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9ac3fc-2964-4068-a234-2c0b840eb7d3")
+	)
+	(wire
+		(pts
 			(xy 231.14 30.48) (xy 241.3 30.48)
 		)
 		(stroke
@@ -6487,6 +6503,16 @@
 			(type default)
 		)
 		(uuid "b194ebd7-774b-49e7-b8f4-614b2860c44f")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 251.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2024317-0f81-487d-b77d-254f5733c0be")
 	)
 	(wire
 		(pts
@@ -6547,6 +6573,16 @@
 			(type default)
 		)
 		(uuid "b6b98269-2fc9-4aa6-af67-69ba81dd4cac")
+	)
+	(wire
+		(pts
+			(xy 102.87 48.26) (xy 105.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcae1e8-de15-46d8-8fc3-2eb40492f553")
 	)
 	(wire
 		(pts
@@ -6680,6 +6716,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 46.99) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbddb390-fd62-44ed-8151-92e9ce2a972a")
+	)
+	(wire
+		(pts
 			(xy 57.15 11.43) (xy 58.42 11.43)
 		)
 		(stroke
@@ -6790,6 +6836,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6493ed-ec2a-4edf-93a6-664df1777cbc")
+	)
+	(wire
+		(pts
 			(xy 116.84 81.28) (xy 118.11 81.28)
 		)
 		(stroke
@@ -6817,6 +6873,16 @@
 			(type default)
 		)
 		(uuid "dd80582f-f4a8-4672-ba7c-8328c4d2de8c")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 92.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fbb72b-d7cb-4d75-b5e8-9106d5610e44")
 	)
 	(wire
 		(pts
@@ -6877,16 +6943,6 @@
 			(type default)
 		)
 		(uuid "e994f7f6-5a39-4149-b47b-d07c6f323da6")
-	)
-	(wire
-		(pts
-			(xy 116.84 48.26) (xy 118.11 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ab8d7a-99ed-495c-9312-3e9e1f0b3acc")
 	)
 	(wire
 		(pts
@@ -7027,16 +7083,6 @@
 			(type default)
 		)
 		(uuid "fc77c19a-c97f-4ddd-bb58-48a0f8fca4b1")
-	)
-	(wire
-		(pts
-			(xy 251.46 90.17) (xy 251.46 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb2b917-63b0-4d5d-aacc-a2e8afcbbf51")
 	)
 	(wire
 		(pts
@@ -7642,6 +7688,28 @@
 			)
 		)
 	)
+	(global_label "RUN"
+		(shape input)
+		(at 252.73 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "490b1b08-d861-4ca1-a4d7-bbb70e5435d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.6462 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO5"
 		(shape bidirectional)
 		(at 170.18 60.96 0)
@@ -7929,8 +7997,8 @@
 		)
 	)
 	(global_label "RUN"
-		(shape bidirectional)
-		(at 252.73 97.79 0)
+		(shape input)
+		(at 116.84 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7938,9 +8006,9 @@
 			)
 			(justify left)
 		)
-		(uuid "82260f0a-2dfd-4524-861f-524a59b11322")
+		(uuid "856f167e-1dd1-45d1-bad1-f66ea07aede6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.7575 97.79 0)
+			(at 116.84 40.0738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,28 +8537,6 @@
 		(uuid "b705178d-c611-4c89-9051-70e0fd4c9ea5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 202.3087 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RUN"
-		(shape bidirectional)
-		(at 116.84 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb467d6e-f264-4d28-9cf3-02a85eb5afde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8125 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,6 +9928,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 92.71 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ec5bb8b-d216-4723-87f2-a49821acd39c")
+		(property "Reference" "#PWR027"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "407f0499-7dc9-4bca-8e29-f1f27e25063e")
+		)
+		(instances
+			(project "vejas-pi"
+				(path "/a1c9f4f1-2c56-475f-8fbf-4ad2c4e9942e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 53.34 13.97 90)
 		(unit 1)
@@ -10079,6 +10191,74 @@
 			(project ""
 				(path "/a1c9f4f1-2c56-475f-8fbf-4ad2c4e9942e"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a23d5b5-fb52-46a6-bbc3-f28b151e23b6")
+		(property "Reference" "R8"
+			(at 109.22 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 109.22 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 109.22 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce573e06-c5df-4874-abb2-28d48f017dec")
+		)
+		(pin "1"
+			(uuid "88d82473-1e00-411f-b6d2-86b002c51923")
+		)
+		(instances
+			(project "vejas-pi"
+				(path "/a1c9f4f1-2c56-475f-8fbf-4ad2c4e9942e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12069,6 +12249,74 @@
 			(project "vejas-pi"
 				(path "/a1c9f4f1-2c56-475f-8fbf-4ad2c4e9942e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 97.79 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a87763f6-2560-46dc-8ebb-c54e23ac72ae")
+		(property "Reference" "SW2"
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc339b6-52c0-4c1a-9862-301243568690")
+		)
+		(pin "2"
+			(uuid "9a8560cb-efb8-4ade-9a7f-bcd401ff67da")
+		)
+		(instances
+			(project "vejas-pi"
+				(path "/a1c9f4f1-2c56-475f-8fbf-4ad2c4e9942e"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
