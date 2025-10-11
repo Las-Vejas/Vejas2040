@@ -36,3 +36,14 @@ So my routing was a mess. I rerouted and now (not fully done) im feeling (and it
 
 My next steps are going to be to add a reset button and an rbg led. I might use this as a pico alt for keyboard builds in the future.   
 
+## 10/11/2025 - Finished the pcb and jlc  
+
+So I finished routing the pcb. I added the neopixel (which I will have to buy and add separately, as PCBA for it would cost a fortune) and a reset button. Im planning to solder the neopixel at school as I think there may be a hotplate somewhere there. 
+The whole PCB is now finished and the project is done. 
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--f268722cdab88dd9cad2d9f318dd0ff3574276bb/image.png)
+
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY4MiwicHVyIjoiYmxvYl9pZCJ9fQ==--92555b80e206a0826b3d0a8e2d6a2f8bcd035e46/image.png)
+  
+
