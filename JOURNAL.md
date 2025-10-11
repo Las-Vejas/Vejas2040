@@ -25,3 +25,14 @@ Here is what my schematic looks like:
 
   
 
+## 10/10/2025 - ReRouted the PCB  
+
+So my routing was a mess. I rerouted and now (not fully done) im feeling (and it's looking) much better. It looks much more like an octopus branching out its tentacles. Find images below.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTQzNywicHVyIjoiYmxvYl9pZCJ9fQ==--7037d853db354721d1250a4383e9354f42b2045f/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTQzOCwicHVyIjoiYmxvYl9pZCJ9fQ==--5adbfa1bf10aae2528631b4a6d161ea7a36b7276/image.png)
+
+
+My next steps are going to be to add a reset button and an rbg led. I might use this as a pico alt for keyboard builds in the future.   
+
