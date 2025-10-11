@@ -4552,6 +4552,12 @@
 		(uuid "6fa1c42f-df5b-405c-af04-7451bde7dccd")
 	)
 	(junction
+		(at 60.96 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fefe55c-6828-4079-921c-4c45051ab3ba")
+	)
+	(junction
 		(at 210.82 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5265,6 +5271,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 149.86) (xy 60.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e3962d-281b-4eee-8868-8280d899cb65")
+	)
+	(wire
+		(pts
 			(xy 170.18 86.36) (xy 168.91 86.36)
 		)
 		(stroke
@@ -5405,7 +5421,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 152.4) (xy 63.5 152.4)
+			(xy 52.07 152.4) (xy 60.96 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6192,6 +6208,16 @@
 			(type default)
 		)
 		(uuid "ca0f627a-ce63-4d9d-b123-7afcd67e628b")
+	)
+	(wire
+		(pts
+			(xy 60.96 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3f9d37-9c45-45a3-80b6-f689a99ae3ae")
 	)
 	(wire
 		(pts
@@ -7819,7 +7845,7 @@
 	)
 	(global_label "QSPI_SS"
 		(shape input)
-		(at 60.96 152.4 90)
+		(at 60.96 149.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7829,7 +7855,7 @@
 		)
 		(uuid "aa42150b-d6d7-44ee-8f12-7953ecb1e385")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 141.6134 90)
+			(at 60.96 139.0734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
