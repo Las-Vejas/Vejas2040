@@ -1,8 +1,5 @@
-Item,Price,Column 4,Column 5,Column 6
-PCB,$2.00,,,
-PCBA,$39.69,,,
-Pin headers,$5.82,,,
-WS2812b-2020 neopixel,$2.43,,,
-TME shipping,$11.79,,,
-JLC Shipping,$9.02,,,
-TOTAL,$70.75,,,
+Item;Price
+PCB;$2.00
+Digikey;$31.87
+JLC Shipping;$9.02
+TOTAL;$42.89
