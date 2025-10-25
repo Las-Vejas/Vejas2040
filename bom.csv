@@ -1,5 +1,5 @@
-Item;Price
-PCB;$2.00
-Digikey;$31.87
-JLC Shipping;$9.02
-TOTAL;$42.89
+Item,Price
+PCB,$9.10
+Digikey,$31.87
+JLC Shipping,$18.35
+TOTAL,$59.32
